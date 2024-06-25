@@ -1,0 +1,4 @@
+[MASTER]
+ignore = venv
+recursive = y
+output-format = colorized
