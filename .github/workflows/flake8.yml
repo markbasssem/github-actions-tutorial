@@ -2,7 +2,7 @@ name: Flake8
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main" ] # only make main pushes throws failure
   pull_request:
     branches: [ "*" ]
 
