@@ -2,3 +2,4 @@
 ignore = venv
 recursive = y
 output-format = colorized
+disable = C0114
