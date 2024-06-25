@@ -17,7 +17,7 @@ class my_class:
         print("This is my method!")
 
 # Violation 6: Function name should be in snake_case
-def my_function():
+def aVeryLongFunction():
     print("Hello, World!")
 
 # Violation 7: Inconsistent indentation
