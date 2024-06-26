@@ -1,4 +1,4 @@
-name: Pylint
+name: Pytest
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [ "*" ]
 
 jobs:
-  lint:
+  test:
     runs-on: ubuntu-latest
     container: python:3.11-slim
     steps:
@@ -19,7 +19,7 @@ jobs:
             python -m pip install --upgrade pip
             pip install -r requirements.txt
             
-    - name: Lint with Pylint
+    - name: Test with Pytest
       run: |
-        pylint .
+        pytest .
     
