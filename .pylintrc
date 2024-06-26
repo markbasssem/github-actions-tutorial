@@ -1,10 +1,3 @@
-<<<<<<< Updated upstream
-[MASTER]
-ignore = venv
-recursive = y
-output-format = colorized
-disable = C0114
-=======
 [MAIN]
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
@@ -103,7 +96,7 @@ prefer-stubs=no
 py-version=3.9
 
 # Discover python modules and packages in the file system subtree.
-recursive=no
+recursive=y
 
 # Add paths to the list of the source roots. Supports globbing patterns. The
 # source root is an absolute path or a path relative to the current working
@@ -649,4 +642,3 @@ init-import=no
 # List of qualified module names which can have objects that can redefine
 # builtins.
 redefining-builtins-modules=six.moves,past.builtins,future.builtins,builtins,io
->>>>>>> Stashed changes
