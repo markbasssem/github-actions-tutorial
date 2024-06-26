@@ -7,7 +7,7 @@ on:
     branches: [ "*" ]
 
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
     container: python:3.11-slim
     steps:
